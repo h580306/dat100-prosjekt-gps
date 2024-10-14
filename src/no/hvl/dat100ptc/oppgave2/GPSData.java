@@ -12,7 +12,6 @@ public class GPSData {
 
 		throw new UnsupportedOperationException(TODO.method());
 		
-		// TODO
 	}
 
 	public GPSPoint[] getGPSPoints() {
@@ -24,8 +23,6 @@ public class GPSData {
 		boolean inserted = false;
 		
 		throw new UnsupportedOperationException(TODO.method());
-		
-		// TODO 
 	
 	}
 
@@ -34,8 +31,6 @@ public class GPSData {
 		GPSPoint gpspoint;
 
 		throw new UnsupportedOperationException(TODO.method());
-
-		// TODO 
 		
 	}
 
@@ -43,6 +38,5 @@ public class GPSData {
 
 		throw new UnsupportedOperationException(TODO.method());
 
-		// TODO 
 	}
 }
