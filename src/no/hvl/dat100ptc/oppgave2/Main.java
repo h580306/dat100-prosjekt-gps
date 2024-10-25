@@ -6,8 +6,19 @@ public class Main {
 
 	
 	public static void main(String[] args) {
-
-		System.out.println();
 		
+		GPSData gpsData = new GPSData(2);
+		
+		new Main(gpsData);
+	}
+	
+	public  Main(GPSData gpsdata) {
+		GPSPoint gpspoint = new GPSPoint(7, 3.0, 2.0, 7.0);
+		GPSPoint gps = new GPSPoint(10, 5.0, 4.0, 12.0);
+
+		gpsdata.insertGPS(gpspoint);
+		gpsdata.insertGPS(gps);
+		
+		gpsdata.print();
 	}
 }
